@@ -1,0 +1,19 @@
+Index: Prosecutor.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Prosecutor.java b/Prosecutor.java
+--- a/Prosecutor.java	(revision 0df913c2459d0b4882893c05d96ec6229427a30d)
++++ b/Prosecutor.java	(revision 30ca3f19c6afc5b79f0d91c68823f75321d78ba6)
+@@ -7,10 +7,8 @@
+     public void friend(){
+         String p1;
+         String p2;
+-
+         int yearP1 =0;
+         int yearP2 =0;
+-        int turn =0;
+ 
+         System.out.println("P1: B for Betray S for Silent!!!!");
+         p1 = silentBetray.next();
