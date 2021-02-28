@@ -9,6 +9,7 @@ public class Prosecutor {
         String p2;
         int yearP1 =0;
         int yearP2 =0;
+        int turn=0;
 
         System.out.println("P1: B for Betray S for Silent!!!!");
         p1 = silentBetray.next();
